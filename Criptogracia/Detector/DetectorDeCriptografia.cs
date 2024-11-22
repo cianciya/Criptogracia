@@ -58,7 +58,7 @@ namespace Criptografia.DetectorDeCriptografia
             foreach (var chave in PalavrasValidas)
             {
                 string tentativa = DescriptografarVigenere(texto, chave);
-                Console.WriteLine($"Tentando com chave '{chave}': {tentativa}");
+                Console.WriteLine($"Tentando com chave '{chave}': {tentativa} \n");
 
                 // Verifica se a tentativa contém uma palavra válida
                 foreach (var palavra in PalavrasValidas)
